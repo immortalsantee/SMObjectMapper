@@ -15,6 +15,6 @@ s.source = { :git => "https://github.com/immortalsantee/SMObjectMapper.git", :ta
 
 # s.framework = "UIKit"
 s.source_files = "SMObjectMapper/**/*.{swift}"
-# s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib}"
+# s.resources = "SMObjectMapper/**/*.{png,jpeg,jpg,storyboard,xib}"
 
 end
