@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		716EF18F1D74083D00CDEEE8 /* SMObjectMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 716EF18E1D74083D00CDEEE8 /* SMObjectMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		716EF1991D74129200CDEEE8 /* SMObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716EF1981D74129200CDEEE8 /* SMObjectMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		716EF18B1D74083D00CDEEE8 /* SMObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SMObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		716EF18E1D74083D00CDEEE8 /* SMObjectMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMObjectMapper.h; sourceTree = "<group>"; };
 		716EF1901D74083D00CDEEE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		716EF1981D74129200CDEEE8 /* SMObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMObjectMapper.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		716EF18D1D74083D00CDEEE8 /* SMObjectMapper */ = {
 			isa = PBXGroup;
 			children = (
+				716EF1981D74129200CDEEE8 /* SMObjectMapper.swift */,
 				716EF18E1D74083D00CDEEE8 /* SMObjectMapper.h */,
 				716EF1901D74083D00CDEEE8 /* Info.plist */,
 			);
@@ -130,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				716EF1991D74129200CDEEE8 /* SMObjectMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +234,7 @@
 		716EF1941D74083D00CDEEE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -240,12 +245,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cninfotech.SMObjectMapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		716EF1951D74083D00CDEEE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;

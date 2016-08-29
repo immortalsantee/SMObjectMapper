@@ -15,7 +15,7 @@ s.homepage      = "https://github.com/immortalsantee/SMObjectMapper"
 s.source        = { :git => "https://github.com/immortalsantee/SMObjectMapper.git", :tag => "#{s.version}"}
 
 s.framework     = "Foundation"
-s.source_files  = "SMObjectMapper/**/*.{swift}"
-# s.resources   = "SMObjectMapper/**/*.{png,jpeg,jpg,storyboard,xib}"
+s.source_files  = "SMObjectMapper/*.{swift}"
+#s.resources     = "SMObjectMapper/**/*.{png,jpeg,jpg,storyboard,xib}"
 
 end
